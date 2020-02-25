@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react react-dom
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\saite\bin;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Users\saite\AppData\Local\Microsoft\WindowsApps;C:\Users\saite\AppData\Local\atom\bin;C:\Users\saite\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\saite\AppData\Roaming\npm;C:\Users\saite\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "contactmanager",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "bootstrap": "^4.3.1",
+      "react": "^16.9.0",
+      "react-dom": "^16.9.0",
+      "react-scripts": "3.1.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "main": "index.js",
+    "author": "saitej <saiteja.tummala23@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
